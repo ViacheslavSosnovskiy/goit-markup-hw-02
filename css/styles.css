@@ -1,36 +1,40 @@
 :root {
     --primary-text-color: rgba(0, 0, 0, 0.8);
     --primary-white-color: #ffffff;
-    --title-text-color: #000000;
+    --title-text-color: #757575;
     --accent-color:  #2196F3;
+    --main-font: Roboto, sans-serif;
+    --secondary-fonts: Raleway, sans-serif;
 }
 
-body {
-    color: rgba(0, 0, 0, 0.8);
-    background-color: #fff;
+body { 
+    font-family:--main-font Roboto, sans-serif;
+    color:var(--title-text-color);
 }
 
-.logo {
-    color: #000;
-}
-span {
-    color: #2196F3;
+/* ==============  КНОПКИ   ============== */
 
-}
-
-/*   КНОПКИ  */
-
-.button:hover {
+.button:hover,
+.button:focus {
     background-color: var(--accent-color);
     color: var(--primary-white-color);
+    cursor: pointer;
 }
-
-/*  SITE NAV  */
-
-.site-nav a:hover {
+/* ==============  HEADER LISTS ============ */
+.navigation-list a:hover,
+.navigation-list a:focus {
     color: var(--accent-color);
 }
 
-.auth-nav a:hover {
+.contacts-list a:hover,
+.contacts-list a:focus {
     color: var(--accent-color);
+}
+
+/* ==============  LOGO ============ */
+
+.logo {
+    font-family:--secondary-fonts Raleway, sans-serif;
+    color: #000;
+
 }
