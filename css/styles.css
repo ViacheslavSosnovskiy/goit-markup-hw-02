@@ -14,19 +14,7 @@ body {
     line-height: 24px;
 }
 
-.heading {
-    color:var(--primary-text-color);
-}
-
-.list {
-    list-style: none;
-}
-
-.address {
-    font-style:normal;
-}
-
-/* ==============  LOGO ============ */
+/* ==============  LOGO  ============ */
 
 
 .logo {
@@ -45,6 +33,24 @@ body {
 .logo .span-header {
     color:var(--primary-text-color);
 }
+
+
+/* ============== ХОВЕР НА ССЫЛКАХ ============ */
+
+.list {
+    list-style: none;
+}
+
+.navigation-list a:hover,
+.navigation-list a:focus {
+    color: var(--accent-color);
+}
+
+.contacts-list a:hover,
+.contacts-list a:focus {
+    color: var(--accent-color);
+}
+
 
 /* ==============  КНОПКИ   ============== */
 
@@ -69,20 +75,20 @@ button {
     line-height: 1.88;
     letter-spacing: 0.06em;
 }
+/* ==============  КНОПКИ портфолио  ============== */
 
-
-/* ==============  HEADER LISTS ============ */
-
-.navigation-list a:hover,
-.navigation-list a:focus {
-    color: var(--accent-color);
+.buttons-list button {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
 }
 
-.contacts-list a:hover,
-.contacts-list a:focus {
-    color: var(--accent-color);
+.button:hover,
+.button:focus {
+    background-color: var(--accent-color);
+    color: var(--primary-white-color);
 }
-
 
 /* ==============  эффект текущей страницы ============ */
 
@@ -98,10 +104,21 @@ button {
 
 .contacts-list .info {
     color:var(--title-text-color);
+    
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
 }
 
 .navigation-link {
     color:var(--primary-text-color);
+
+    
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
 }
 
 /* ============== ССЫЛКИ  работ портфолио ============== */
@@ -116,10 +133,22 @@ button {
 
 /* ============== FOOTER ============== */
 
+.address {
+    font-style:normal;
+}
+
 /* .address p { 
     color:var(--primary-white-color);
 }
 */
+
+
+/* ============== ЗАГОЛОВКИ ============== */
+
+
+.heading {
+    color:var(--primary-text-color);
+}
 
 h1 {
 font-weight: 900;
@@ -141,4 +170,11 @@ h3 {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
+}
+
+/* ============== абзацы "наша команда" ============== */
+
+.our-company p {
+font-size: 16px;
+line-height: 1.18;
 }
