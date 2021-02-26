@@ -1,18 +1,54 @@
 :root {
-    --primary-text-color: rgba(0, 0, 0, 0.8);
+    --primary-text-color: #212121;
     --primary-white-color: #ffffff;
     --title-text-color: #757575;
     --accent-color:  #2196F3;
     --main-font: Roboto, sans-serif;
-    --secondary-fonts: Raleway, sans-serif;
 }
 
 body { 
-    font-family:--main-font Roboto, sans-serif;
+    font-family: Roboto, sans-serif;
     color:var(--title-text-color);
+    letter-spacing: 0.03em;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.list {
+    list-style: none;
+}
+
+.address {
+    font-style:normal;
+}
+
+/* ==============  LOGO ============ */
+
+
+.logo {
+    color:var(--accent-color);
+    font-family: Raleway, sans-serif;
+
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+}
+
+.logo .span-footer {
+    color:var(--primary-white-color);
+}
+
+.logo .span-header {
+    color:var(--primary-text-color);
 }
 
 /* ==============  КНОПКИ   ============== */
+
+button {
+    font-family: inherit;
+}
 
 .button:hover,
 .button:focus {
@@ -29,12 +65,4 @@ body {
 .contacts-list a:hover,
 .contacts-list a:focus {
     color: var(--accent-color);
-}
-
-/* ==============  LOGO ============ */
-
-.logo {
-    font-family:--secondary-fonts Raleway, sans-serif;
-    color: #000;
-
 }
