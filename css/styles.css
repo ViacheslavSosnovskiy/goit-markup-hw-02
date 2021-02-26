@@ -12,10 +12,6 @@ body {
     letter-spacing: 0.03em;
 }
 
-.link {
-    text-decoration: none;
-}
-
 .list {
     list-style: none;
 }
@@ -63,17 +59,27 @@ button {
     color: var(--accent-color);
 }
 
-.navigation-list .current {
-    color: var(--accent-color);
-}
-
 .contacts-list a:hover,
 .contacts-list a:focus {
     color: var(--accent-color);
 }
 
-/* ==============   ============== */
+
+/* ==============  эффект текущей страницы ============ */
+.navigation-list .current {
+    color: var(--accent-color);
+}
+
+/* ============== ССЫЛКИ  ============== */
 
 .link {
     text-decoration: none;
+}
+
+.contacts-list .info {
+    color:var(--title-text-color);
+}
+
+.navigation-link {
+    color:var(--primary-text-color);
 }
