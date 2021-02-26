@@ -48,21 +48,32 @@ body {
 
 button {
     font-family: inherit;
+    cursor: pointer;
 }
 
 .button:hover,
 .button:focus {
     background-color: var(--accent-color);
     color: var(--primary-white-color);
-    cursor: pointer;
 }
+
 /* ==============  HEADER LISTS ============ */
 .navigation-list a:hover,
 .navigation-list a:focus {
     color: var(--accent-color);
 }
 
+.navigation-list .current {
+    color: var(--accent-color);
+}
+
 .contacts-list a:hover,
 .contacts-list a:focus {
     color: var(--accent-color);
+}
+
+/* ==============   ============== */
+
+.link {
+    text-decoration: none;
 }
