@@ -26,9 +26,9 @@ body {
     line-height: 1.2;
 }
 
-.logo .span-footer {
+/* .logo .span-footer {
     color:var(--primary-white-color);
-}
+} */
 
 .logo .span-header {
     color:var(--primary-text-color);
