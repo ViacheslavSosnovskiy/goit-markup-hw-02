@@ -6,12 +6,11 @@
     --main-font: Roboto, sans-serif;
 }
 
+
 body { 
     font-family: Roboto, sans-serif;
     color:var(--title-text-color);
     letter-spacing: 0.03em;
-    font-size: 14px;
-    line-height: 24px;
 }
 
 /* ==============  LOGO  ============ */
@@ -35,6 +34,125 @@ body {
 }
 
 
+/* ============== ССЫЛКИ NAV  ============== */
+
+.link {
+    text-decoration: none;
+}
+
+.navigation-link {
+    color:var(--primary-text-color);
+
+    
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+
+.contacts-list .info {
+    color:var(--title-text-color);
+    
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+
+
+/* ============== ЗАГОЛОВКИ ============== */
+
+
+.heading {
+    color:var(--primary-text-color);
+}
+
+.section h1 {
+    /* color:var(--primary-white-color); */
+
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.37;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase
+}
+
+/* ==============  КНОПКИ   ============== */
+
+button {
+    font-family: inherit;
+    cursor: pointer;
+}
+
+.section button {
+    background-color: var(--accent-color);
+    color: var(--primary-white-color);
+
+    
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+}
+/* ============= первый Н2 =============== */
+
+.punctuality h3 {
+    
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+}
+
+.punctuality p {
+    
+    font-size: 14px;
+    line-height: 1.71;
+}
+
+/* ============= второй Н2 =============== */
+
+.section h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16px;
+    text-align: center;
+}
+
+/* ============= третий Н2 =============== */
+
+.Our-company h3 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+}
+
+.Our-company p {
+    font-size: 16px;
+    line-height: 1.18px;
+}
+
+/* ============== FOOTER ============== */
+
+.address {
+    font-style:normal;
+
+    font-size: 14px;
+    line-height: 1.71;
+ }
+
+/* .address p { 
+    color:var(--primary-white-color);
+}
+*/
+
+
+
+
+/* страничка портфолио*/
+
+
+
 /* ============== ХОВЕР НА ССЫЛКАХ ============ */
 
 .list {
@@ -52,29 +170,16 @@ body {
 }
 
 
-/* ==============  КНОПКИ   ============== */
 
-button {
-    font-family: inherit;
-    cursor: pointer;
+
+
+/* ==============  эффект текущей страницы ============ */
+
+.navigation-list .current {
+    color: var(--accent-color);
 }
 
-.button:hover,
-.button:focus {
-    background-color: var(--accent-color);
-    color: var(--primary-white-color);
-}
 
-.section button {
-    background-color: var(--accent-color);
-    color: var(--primary-white-color);
-
-    
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.88;
-    letter-spacing: 0.06em;
-}
 /* ==============  КНОПКИ портфолио  ============== */
 
 .buttons-list button {
@@ -84,97 +189,24 @@ button {
     text-align: center;
 }
 
-.button:hover,
-.button:focus {
+.buttons-list .button:hover,
+.buttons-list .button:focus {
     background-color: var(--accent-color);
     color: var(--primary-white-color);
 }
 
-/* ==============  эффект текущей страницы ============ */
-
-.navigation-list .current {
-    color: var(--accent-color);
-}
-
-/* ============== ССЫЛКИ  ============== */
-
-.link {
-    text-decoration: none;
-}
-
-.contacts-list .info {
-    color:var(--title-text-color);
-    
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-}
-
-.navigation-link {
-    color:var(--primary-text-color);
-
-    
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-}
-
 /* ============== ССЫЛКИ  работ портфолио ============== */
 
-.works-list .works {
+.works-list h3 {
     color:var(--primary-text-color);
-}
-
-.works-list .works p {
-    color:var(--title-text-color);
-}
-
-/* ============== FOOTER ============== */
-
-.address {
-    font-style:normal;
-}
-
-/* .address p { 
-    color:var(--primary-white-color);
-}
-*/
-
-
-/* ============== ЗАГОЛОВКИ ============== */
-
-
-.heading {
-    color:var(--primary-text-color);
-}
-
-h1 {
-font-weight: 900;
-font-size: 44px;
-line-height: 1.37;
-text-align: center;
-letter-spacing: 0.06em;
-text-transform: uppercase
-}
-
-h2 {
-font-weight: 700;
-font-size: 36px;
-line-height: 1.16;
-text-align: center;
-}
-
-h3 { 
     font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
 }
 
-/* ============== абзацы "наша команда" ============== */
-
-.our-company p {
-font-size: 16px;
-line-height: 1.18;
+.works-list p {
+    color:var(--title-text-color);
+    font-size: 16px;
+    line-height: 1.87;
 }
